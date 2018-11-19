@@ -23,18 +23,22 @@
 			if($rows['userTypeId'] == 4)
 			{
 				$_SESSION['id'] = $rows['username'];
+                                $_SESSION['idorganization']=$rows['idOrganization'];
 				header('location: admin/index.php');
 			}
 			elseif ($rows['userTypeId'] == 3) {
 				$_SESSION['id'] = $rows['username'];
+                                $_SESSION['idorganization']=$rows['idOrganization'];
 				header('location: employeeHospital/index.php');
 			}
 			elseif ($rows['userTypeId'] == 2) {
 				$_SESSION['id'] = $rows['username'];
+                                $_SESSION['idorganization']=$rows['idOrganization'];
 				header('location: mother/index.php');
 			}
 			elseif ($rows['userTypeId'] == 1) {
 				$_SESSION['id'] = $rows['username'];
+                                $_SESSION['idorganization']=$rows['idOrganization'];
 				header('location: employee/index.php');
 			}
 			else

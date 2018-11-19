@@ -25,8 +25,6 @@ $result = mysqli_query($conn, $query);
                                         <th>Жин</th>
                                         <th>Хаяг</th>
                                         <th>Төрсөн огноо</th>
-                                        <th>Төлөв</th>
-                                        <th>Үйлдэл</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -40,17 +38,6 @@ $result = mysqli_query($conn, $query);
                                             <td><?php echo $row['weight'] ?></td>
                                             <td><?php echo $row['address'] ?></td>
                                             <td><?php echo $row['date'] ?></td>
-                                            <td><?php echo $row['stateName'] ?></td>
-                                            <td>
-                                                <?php if ($row['idState'] == 1) : ?>
-                                                    <a class="btn-info btn btn-xs confirm" href="save.php?registerNumber=<?php echo $row['idRegister'] ?>" title="батлах">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                <?php else : ?>
-                                                    <i class="fa fa-check-circle"></i>
-                                                <?php endif; ?>
-
-                                            </td>
                                         </tr>
                                         <?php
                                     }

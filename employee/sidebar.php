@@ -68,7 +68,6 @@
                         <i class="mdi mdi-bullseye"></i><span class="hide-menu">Бүртгэл</span>
                       </a>
                             <ul aria-expanded="true" class="collapse">
-                                <li><a href="addChildren.php">Шинэ төрсөн хүүхэд</a></li>
                                 <li><a href="list.php">Жагсаалт</a></li>
                             </ul>
                         </li>

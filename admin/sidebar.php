@@ -10,7 +10,7 @@
                 <!-- ============================================================== -->
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">
-                        <!-- Logo icon --><b>Төрсөний гэрчилгээ</b>
+                        <!-- Logo icon --><b>Төрсний гэрчилгээ</b>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -63,12 +63,18 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                          <li class="nav-devider"></li>
-                       
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">Санал асуулга</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="app-teacher.html">Багш</a></li>
-                                <li><a href="app-ticket.html">Оюутан</a></li>
-                                <li><a href="app-ticket.html">Эцэг эх</a></li>
-                                
+                     <li>
+                      <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false">
+                        <i class="mdi mdi-bullseye"></i><span class="hide-menu">Бүртгэл</span>
+                      </a>
+                            <ul aria-expanded="true" class="collapse">
+                                <li><a href="addBirthHospital.php">Төрөх бүртгэл</a></li>
+                                <li><a href="listBirthHospital.php">Төрөх эмнэлэгийн жагсаалт</a></li>
+                                <li><a href="registerForHospital.php">Регистерийн дугаар</a></li>
+                                <li><a href="listRegisterAndHospital.php">Төрөх эмнэлэгийн болон регистерийн дугаар</a></li>
                             </ul>
                         </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
